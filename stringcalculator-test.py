@@ -10,7 +10,7 @@ class TestStringCalculator(unittest.TestCase):
         self.assertEqual(add('2'), 2)
         self.assertEqual(add('1,2'), 3)
         self.assertEqual(add('1,3,9,6'), 19)
-        self.assertEqual(add('1,4,7,9,8,10,11,23'),73)
+        self.assertEqual(add('1,4,7,9,8,10,11,23'),72)
         self.assertEqual(add('1,2\n3'),6)
         self.assertEqual(add('2,1\n6,7\n10'), 26)
         self.assertEqual(add('//;\n1;2'),3)
